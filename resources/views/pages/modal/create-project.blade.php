@@ -16,4 +16,4 @@
 </form>
 
 
-{{-- @include('includes.js.project') --}}
+@include('includes.js.project')

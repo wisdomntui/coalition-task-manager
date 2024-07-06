@@ -2,9 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\CreeateProjectRequest;
+use App\Http\Requests\CreateProjectRequest;
 use App\Models\Project;
-use Illuminate\Http\Request;
 
 class ProjectController extends Controller
 {
@@ -13,7 +12,7 @@ class ProjectController extends Controller
      * 
      * @param ProjectRequest $request - Request object of type Project
      */
-    public function create(CreeateProjectRequest $request)
+    public function create(CreateProjectRequest $request)
     {
         // Get validated request data
         $data = $request->validated();
